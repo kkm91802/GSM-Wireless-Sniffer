@@ -1,0 +1,4 @@
+rtl-sdr-64bit-20250330
+zadig-2.9
+kalibrate-rtl-master
+msys2-x86_64-20250221 (1)

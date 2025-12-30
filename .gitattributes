@@ -1,0 +1,22 @@
+# Set default file handling to text
+* text=auto
+
+# Force Git to treat the .grc files as binary (since they are flowcharts and could contain non-text data)
+*.grc binary
+
+# Treat all .pcap files as binary (Wireshark capture files)
+*.pcap binary
+
+# If you have .txt files that include software dependencies, treat them as text
+*.txt text
+
+# Ensure all markdown files are treated as text
+*.md text
+
+# Allow diffs for source code and Python scripts
+*.c text diff=cpp
+*.h text diff=cpp
+*.py text
+
+# If you use any other script files (e.g., bash scripts), ensure they are treated as executable
+*.sh  text eol=lf
